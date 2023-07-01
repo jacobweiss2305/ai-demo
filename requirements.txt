@@ -1,0 +1,10 @@
+streamlit
+openai
+pandas
+requests
+bs4
+chromadb
+langchain
+ipykernel
+python-dotenv
+tiktoken

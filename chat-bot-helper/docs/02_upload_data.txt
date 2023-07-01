@@ -1,0 +1,53 @@
+Uploading Position Level Data to Alphatheory.com
+
+Step 1: Access Alphatheory.com
+   - Open a web browser and enter "www.alphatheory.com" in the address bar.
+   - Press Enter to navigate to the Alphatheory.com website.
+
+Step 2: Log in to your account
+   - If you already have an account, follow the steps outlined in the previous documentation to log in.
+   - If you don't have an account, create one by following the registration process provided on the website.
+
+Step 3: Navigate to the data upload section
+   - Once you are logged in, locate the navigation menu or sidebar.
+   - Look for a section or link related to data management, data uploads, or positions.
+   - Click on the appropriate section or link to access the data upload functionality.
+
+Step 4: Prepare your position data
+   - Ensure that your position data is in a compatible format for uploading.
+   - Alphatheory.com may accept data in various formats such as CSV (Comma-Separated Values), XLSX (Microsoft Excel), or other supported file types.
+   - Verify that your data is organized in columns, with each column representing a specific attribute (e.g., symbol, quantity, price).
+
+Step 5: Create a new data upload
+   - Look for a button or link to create a new data upload or import.
+   - Click on the "New Upload" or similar option to initiate the upload process.
+
+Step 6: Select the data file
+   - A file selection dialog box or upload form will appear.
+   - Use the file selection dialog box to locate and select the position data file on your local computer or network.
+   - Click "Open" or "Upload" to proceed.
+
+Step 7: Map data columns (if required)
+   - If Alphatheory.com requires column mapping, you will be presented with a mapping interface.
+   - Review the columns detected in your uploaded data file.
+   - Map each column to the corresponding attribute in Alphatheory.com (e.g., symbol, quantity, price).
+   - Follow the on-screen instructions or tooltips for guidance.
+
+Step 8: Validate and submit the upload
+   - Once the column mapping is complete (if applicable), review the summary or preview of your data.
+   - Ensure that the data appears correctly and matches your expectations.
+   - If necessary, make any adjustments or corrections.
+
+Step 9: Initiate the upload
+   - Look for a "Submit," "Upload," or "Import" button to start the data upload process.
+   - Click the appropriate button to initiate the upload.
+
+Step 10: Wait for the upload to complete
+   - Alphatheory.com will process the uploaded data, which may take a few moments.
+   - Wait for the upload to complete and for the system to process your data.
+
+Step 11: Verify the upload status
+   - Once the upload process finishes, check the status or confirmation message provided by Alphatheory.com.
+   - Ensure that the upload was successful without any errors or warnings.
+
+Congratulations! You have successfully uploaded position level data to your Alphatheory.com web application. The system will now integrate the uploaded data, enabling you to analyze and manage your positions within the platform.

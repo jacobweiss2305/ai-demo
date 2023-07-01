@@ -1,0 +1,1 @@
+ Refer to the 01_login.txt file for instructions on how to log into the Alpha Theory application.

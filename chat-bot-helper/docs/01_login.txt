@@ -1,0 +1,37 @@
+Logging into Alphatheory.com
+
+Step 1: Open a web browser
+
+Launch your preferred web browser (e.g., Google Chrome, Mozilla Firefox, Safari).
+Step 2: Enter the URL
+
+In the address bar of the web browser, type in "www.alphatheory.com" and press Enter.
+Step 3: Access the login page
+
+Once the Alphatheory.com website loads, you will be presented with the homepage.
+Look for the "Login" or "Sign In" button/link on the top-right corner of the page.
+Click on the "Login" or "Sign In" button/link to proceed to the login page.
+Step 4: Enter your credentials
+
+On the login page, you will see fields to enter your username and password.
+Type in your registered username in the designated username field.
+Type in your password in the designated password field.
+Ensure that you enter your credentials correctly, as they are case-sensitive.
+Step 5: Click the "Login" button
+
+Once you have entered your username and password, double-check for accuracy.
+After confirming your credentials, click the "Login" or "Sign In" button on the login page.
+Step 6: Wait for authentication
+
+Alphatheory.com will process your login request and authenticate your credentials.
+The authentication process may take a few moments. Please be patient.
+Step 7: Access your account
+
+Upon successful authentication, you will be redirected to your Alphatheory.com account dashboard.
+You are now logged in and can start using the features and functionalities of Alphatheory.com.
+Step 8: Logout (optional)
+
+To logout from your Alphatheory.com account, look for the "Logout" or "Sign Out" option.
+The logout option is typically available in the top-right corner of the webpage.
+Click on the "Logout" or "Sign Out" option to securely log out from your account.
+Congratulations! You have successfully logged into your Alphatheory.com web application. Enjoy using the platform's features and managing your investment strategies.
