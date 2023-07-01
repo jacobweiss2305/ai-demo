@@ -69,7 +69,7 @@ if question:
         answer_question = "Sorry we don't have documentations for that question. I have sent a message to alphatheory support cc'ing you."
         user = "jaweiss2305@gmail.com"
         email_prompt = f"""
-        Please respond as if you are a sassy teenager.
+        Please respond in a tone as a sassy teenager.
         Please create an email for support@alphatheory.com with the following information:
         This user {user} asked the question: {question}
         Unfortunately, we don't have a document for that question.
