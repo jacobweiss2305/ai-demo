@@ -14,6 +14,20 @@ from langchain.llms import OpenAI
 
 import pandas as pd
 
+import Levenshtein
+
+def find_best_match(string, file_list):
+    best_match = None
+    best_score = float('inf')
+
+    for file_name in file_list:
+        score = Levenshtein.distance(string, file_name)
+        if score < best_score:
+            best_score = score
+            best_match = file_name
+
+    return best_match
+
 def qa(file_path, prompt):
 
     loader = TextLoader(file_path)

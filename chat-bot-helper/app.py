@@ -50,37 +50,42 @@ if question:
 
     Extract the .txt file name. Do not remove the number or special characters.
 
-    The filename should look like this: 01_sample.txt
-
     """
 
     best_file = utils.qa(store_answer_best_document, extract_prompt).replace(" ", "")
 
     # Example usage
     file_path = f"chat-bot-helper\docs\{best_file}"
-    is_valid = utils.is_valid_file_path(file_path)
+    
+    best_file_name = utils.find_best_match(best_file, txt_files)
+
+    best_file_path = f"chat-bot-helper\docs\{best_file_name}"
+
+    is_valid = utils.is_valid_file_path(best_file_path)
     
     if is_valid:
 
-        answer_question = utils.qa(f"chat-bot-helper\docs\{best_file}", question)
-
+        answer_question = utils.qa(best_file_path, question)
         
-    else:
-        answer_question = "Sorry we don't have documentations for that question. I have sent a message to alphatheory support cc'ing you."
-        user = "jaweiss2305@gmail.com"
-        email_prompt = f"""
-        Please respond in a tone as a sassy teenager.
-        Please create an email for support@alphatheory.com with the following information:
-        This user {user} asked the question: {question}
-        Unfortunately, we don't have a document for that question.
-        We need to ask the support to create a document for that question and follow up with the user.
-        """
-        email = llm.predict(email_prompt)
+        if "I don't know" in answer_question:
+            answer_question = "Sorry we don't have documentations for that question. I have sent a message to alphatheory support cc'ing you."
+            user = "jaweiss2305@gmail.com"
+            email_prompt = f"""
+            Please respond in a tone as a sassy teenager.
+            Please create an email for support@alphatheory.com with the following information:
+            This user {user} asked the question: {question}
+            Unfortunately, we don't have a document for that question.
+            We need to ask the support to create a document for that question and follow up with the user.
+            """
+            email = llm.predict(email_prompt)
+            if email:
+                st.text_area("Email to support:", email, height=200)
 
-    if answer_question:
-        st.text_area("Chat Bot:", answer_question, height=200)
+        else:
+            st.text_area("Chat Bot:", answer_question, height=200)
+    
 
-    if email:
-        st.text_area("Email to support:", email, height=200)
+
+
 
 
