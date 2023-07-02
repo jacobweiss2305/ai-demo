@@ -1,0 +1,13 @@
+Listed below are financial data sources ranked in reliability:
+1. Bloomberg
+2. Factset
+3. SEC
+4. Yahoo Finance
+
+Bloomberg states that the company Apple has ticker: AAPL, Cusip: 12345, SEDOL: 9874312
+
+Factset states that the company Apple has ticker: AAPL, Cusip: 12345, SEDOL: 9874312
+
+SEC states that the company Apple has ticker: APL, CUSIP: 12343, SEDOL: 983231
+
+Yahoo Finance states that the company Apple has ticker: APL, CUSIP: 12343, SEDOL: 983231
